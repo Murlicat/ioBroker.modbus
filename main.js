@@ -239,6 +239,7 @@ const typeItemsLen = {
     'floatsb':    2,
     'doublebe':   4,
     'doublele':   4,
+    'doublesw':   4,
     'string':     0,
     'stringle':   0,
 };
