@@ -24,6 +24,7 @@
     {"value": "floatsb", "title": "Float (Big Endian Byte Swap)"},
     {"value": "doublebe", "title": "Double (Big Endian)"},
     {"value": "doublele", "title": "Double (Little Endian)"},
+    {"value": "doublesw", "title": "Double (Little Endian Word Swap)"},
     {"value": "string", "title": "String (Zero-end)"},
     {"value": "stringle", "title": "String (Little Endian, Zero-end)"}
 ]
