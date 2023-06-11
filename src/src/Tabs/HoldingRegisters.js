@@ -89,7 +89,7 @@ class HoldingRegisters extends BaseRegisters {
             if (['uint32be', 'uint32le', 'uint32sw', 'uint32sb', 'int32be', 'int32le', 'int32sw', 'int32sb', 'floatbe', 'floatle', 'floatsw', 'floatsb', 'string', 'stringle'].includes(value)) {
                 data[index].len = 2;
             } else
-            if (['uint64be', 'uint64le', 'doublebe', 'doublele'].includes(value)) {
+            if (['uint64be', 'uint64le', 'doublebe', 'doublele', 'doublesw'].includes(value)) {
                 data[index].len = 4;
             }
         }
