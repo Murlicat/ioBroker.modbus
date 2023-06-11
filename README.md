@@ -177,6 +177,7 @@ Use value as scaling factor. This is needed to used dynamic scaling factors whic
 - `floatsb`  - `Float (Big Endian Byte Swap): AABBCCDD => DDCCBBAA`
 - `doublebe` - `Double (Big Endian): AABBCCDDEEFFGGHH => AABBCCDDEEFFGGHH`
 - `doublele` - `Double (Little Endian): AABBCCDDEEFFGGHH => HHGGFFEEDDCCBBAA`
+- `doublebe` - `Double (Big Endian Word Swap): AABBCCDDEEFFGGHH => GGHHEEFFCCDDAABB`
 - `string`   - `String (Zero-end): ABCDEF\0 => ABCDEF\0`
 - `stringle` - `String (Little Endian, Zero-end): BADCFE\0 => ABCDEF\0`
 
